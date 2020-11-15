@@ -1,0 +1,640 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-block-start: 0;
+    margin-block-end: 0;
+    font-family: monospace;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+html,
+body {
+    font-size: 16px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+a {
+    text-decoration: none;
+}
+
+.content {
+    width: 100%;
+    height: 350px;
+    background: url(../img/Background\ 3.png );
+    background-position: center;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.content .align-itens button {
+    margin-top: 20px;
+}
+
+.content .align-itens h2 {
+    color: #fff;
+}
+
+.align-itens {
+    padding-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.align-itens h2 {
+    color: #0E9EC8;
+    font-size: 27px;
+    padding-top: 20px;
+}
+
+.content .align-itens h2 b {
+    font-size: 35px;
+}
+
+.content .align-itens h4 b {
+    color: #FFC900;
+}
+
+.align-itens h4 {
+    color: #fff;
+    font-size: 18px;
+}
+
+.about .align-itens h2 {
+    color: #fff;
+}
+
+.about {
+    width: 100%;
+    text-align: center;
+    background-color: #1DCBF2;
+}
+
+.about .flex-cards {
+    padding-bottom: 0;
+}
+
+.about .align-itens h4 {
+    font-size: 14px;
+    font-family: monospace;
+}
+
+.about .align-itens b {
+    font-family: sans-serif;
+}
+
+.about h5 {
+    color: #fff;
+    font-family: sans-serif;
+    padding: 30px;
+}
+
+.about a {
+    font-size: 0, 83em;
+    text-decoration: underline;
+    color: #FFC900;
+}
+
+.border {
+    width: 75px;
+    height: 7px;
+    background-color: #fff;
+    border-radius: 25px 20px;
+}
+
+.borderAmarela {
+    background-color: #FFC900;
+}
+
+.flex-cards {
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+.flex-cards>div {
+    background-color: #fff;
+    border-radius: 10px;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+    width: 210px;
+}
+
+
+
+.flex-cards div img {
+    padding-top: 20px;
+}
+
+.flex-cards h6 {
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 1.5;
+    text-align: left;
+    padding: 10px;
+}
+
+.novosParceiros {
+    width: 100%;
+}
+
+.flex-eligibilidade {
+    display: flex;
+    justify-content: center;
+}
+
+.flex-eligibilidade>div {
+    width: 530px;
+    margin: 50px;
+    height: 400px;
+    border-width: 2px;
+    border-color: #bbbbbb;
+    border-style: solid;
+    display: inline-block;
+    border-radius: 20px;
+    position: relative;
+}
+
+
+.flex-eligibilidade img,
+button {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.flex-eligibilidade button {
+    background: #009BC7;
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+.flex-eligibilidade button:hover {
+    background-color: #017b9c;
+}
+
+.flex-eligibilidade img {
+    padding-top: 20px;
+}
+
+.flex-eligibilidade p {
+    color: #2c4f8d;
+    padding-top: 10px;
+    text-align: left;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.flex-eligibilidade p strong {
+    color: #2c4268;
+}
+
+.flex-eligibilidade p a {
+    text-decoration: underline;
+}
+
+.conteiner-adm {
+    background-color: #F5F5F5;
+}
+
+.conteiner-adm .flex-cards div {
+    height: 200px;
+    position: relative;
+}
+
+.conteiner-adm .flex-cards img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+
+.conteiner-operadoras .flex-cards div {
+    height: 200px;
+    position: relative;
+}
+
+.conteiner-operadoras .flex-cards img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+
+.fale-conosco {
+    background-image: url(../img/multiethnic-call-centre-operators-with-headsets-ta-VGKLYFC.png);
+    height: 1571px;
+    background-color: #cccccc;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+
+form {
+    width: 800px;
+    height: 100%;
+    background-color: #009BC7;
+}
+
+form .align-itens {
+    padding-bottom: 30px;
+}
+
+form .align-itens h2 {
+    color: #FFF;
+}
+
+.form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 550px;
+}
+
+.conteiner-form {
+    height: 100%;
+    position: relative;
+}
+
+#botao-form {
+    background: #4CDD88;
+    color: #fff;
+    width: 200px;
+    position: sticky;
+    border: none;
+    left: 100%;
+    top: 30%;
+    cursor: pointer;
+    transition: background-color .2s;
+}
+
+#botao-form:hover {
+    background: #3cac6a;
+}
+
+button {
+    background: #FFC900;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color .2s;
+
+}
+
+.buttonContent:hover {
+    background: #b48d01;
+}
+
+form input {
+    margin-top: 10px;
+    width: 400px;
+    height: 50px;
+    margin-bottom: 40px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #fff;
+    border-radius: 4px;
+    background-color: #fff;
+    font-size: 16px;
+}
+
+form textarea {
+    width: 400px;
+    height: 150px;
+    margin-top: 10px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    font-size: 16px;
+    resize: none;
+}
+
+textarea:focus,
+input:focus,
+select:focus {
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+}
+
+label {
+    color: #FFF;
+}
+
+form .align-itens p {
+    color: #FFF;
+}
+
+.conteiner-telefone {
+    width: 400px;
+    height: 400px;
+    background-color: #FFF;
+    margin-top: 30%;
+}
+
+.conteiner-telefone p {
+    color: #9E9E9E;
+}
+
+.conteiner-telefone h3 {
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.telefone,
+.whatsapp {
+    position: relative;
+}
+
+.conteiner-telefone img {
+    margin-left: 20px;
+}
+
+.conteiner-telefone p {
+    position: absolute;
+    display: inline;
+    padding-left: 10px;
+    font-size: 18px;
+}
+
+.conteiner-telefone b {
+    color: #009BC7;
+}
+
+.telefone p {
+    margin-block-start: 10px;
+}
+
+hr {
+    width: 90%;
+    border-width: 1px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.whatsapp {
+    width: 90%;
+    margin-left: 20px;
+    position: relative;
+}
+
+.whatsapp img {
+    background-color: #00B57C;
+    padding: 5px;
+    float: left;
+    margin-left: 0;
+}
+
+.whatsapp div {
+    height: 55px;
+    width: 100%;
+    text-align: initial;
+    background-color: #00D28D;
+}
+
+.whatsapp div p {
+    padding-top: 15px;
+    padding-left: 30px;
+    color: #fff;
+    font-size: 18px;
+}
+
+
+
+.endereco p {
+    font-size: 18px;
+    margin-block-start: 0;
+    margin-block-end: 0;
+
+}
+
+.endereco b {
+    font-size: 13px;
+    line-height: 2px;
+}
+
+footer {
+    height: 50px;
+    color: #fff;
+    background-color: #004457;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer img {
+    padding-left: 10px;
+}
+
+@media screen and (max-width: 1000px) {
+    .content img {
+        display: none;
+    }
+
+    .flex-cards,
+    .flex-eligibilidade {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    form {
+        width: 100%;
+    }
+}
+
+nav {
+    background: #FFF;
+    height: 110px;
+    width: 100%;
+}
+
+.logo {
+    padding: 15px;
+}
+
+nav ul {
+    float: right;
+    margin-right: 20px;
+    z-index: 1;
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+
+nav ul li a {
+    color: #9E9E9E;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+
+a:hover {
+    color: #009BC7;
+    transition: .5s;
+}
+
+.checkbtn {
+    font-size: 30px;
+    color: white;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+
+#check {
+    display: none;
+}
+
+.dropdown .dropbtn {
+    font-size: 17px;
+    border: none;
+    color: #9E9E9E;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+
+@media (max-width: 1200px) {
+    nav ul li a {
+        font-size: 16px;
+    }
+
+    .checkbtn {
+        display: block;
+    }
+
+    ul {
+        position: absolute;
+        width: 100%;
+        height: 100vh;
+        background: #FFF;
+        top: 80px;
+        left: -100%;
+        text-align: center;
+        transition: all .5s;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+    }
+
+    nav ul li a {
+        font-size: 20px;
+        color: #9E9E9E;
+    }
+
+    a:hover {
+        background: none;
+        color: #009BC7;
+    }
+
+    #check:checked~ul {
+        left: 0;
+    }
+
+    .dropdown .dropbtn {
+        font-size: 20px;
+    }
+}
+
+
+.dropdown {
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+
+
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    min-width: 160px;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: #9E9E9E;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.topnav a:hover,
+.dropdown:hover .dropbtn {
+    color: #009BC7;
+    transition: .5s;
+}
+
+.dropdown-content a:hover {
+    color: #009BC7;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.fa,
+.fas {
+    color: #9E9E9E;
+}
